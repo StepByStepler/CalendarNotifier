@@ -9,6 +9,7 @@ import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
+        System.out.println("Calendar Notifier started");
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(System.currentTimeMillis());
         calendar.set(Calendar.SECOND, 0);
